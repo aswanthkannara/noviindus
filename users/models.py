@@ -16,3 +16,7 @@ class CourseDetails(models.Model):
     amount_in_words = models.CharField(max_length=200)
     description = models.CharField(max_length=500, null=True, blank=True)
     image = models.ImageField(upload_to='images/')
+
+
+
+# only two tables are added
